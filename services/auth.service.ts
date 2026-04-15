@@ -4,8 +4,9 @@
  * Handles user authentication, session management, and user profile operations
  */
 
+import { ApiResponse, AppUser } from "@santoori/core";
+
 import { supabase } from "@/lib/supabase";
-import { ApiResponse, AppUser } from "@/types";
 
 export class AuthService {
   /**

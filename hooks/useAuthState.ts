@@ -5,9 +5,9 @@
  */
 
 import { useEffect, useState } from "react";
+import { AuthState } from "@santoori/core";
 
 import { AuthService } from "@/services";
-import { AuthState } from "@/types";
 
 export function useAuthState() {
   const [authState, setAuthState] = useState<AuthState>({

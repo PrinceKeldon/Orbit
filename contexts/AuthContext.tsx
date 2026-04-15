@@ -5,9 +5,9 @@
  */
 
 import React, { createContext, ReactNode, useContext } from "react";
+import { AuthState } from "@santoori/core";
 
 import { useAuthState } from "@/hooks";
-import { AuthState } from "@/types";
 
 interface AuthContextType extends AuthState {
   signIn: (

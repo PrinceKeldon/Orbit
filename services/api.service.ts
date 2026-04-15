@@ -5,7 +5,7 @@
  * and response formatting
  */
 
-import { ApiResponse, ApiError } from "@/types";
+import { ApiError, ApiResponse } from "@santoori/core";
 
 /**
  * Request options

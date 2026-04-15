@@ -4,8 +4,9 @@
  * Service for user-related API calls and data operations
  */
 
+import { ApiResponse, AppUser, PaginatedResponse } from "@santoori/core";
+
 import { supabase } from "@/lib/supabase";
-import { ApiResponse, AppUser, PaginatedResponse } from "@/types";
 
 export class UserService {
   private static readonly TABLE = "users";

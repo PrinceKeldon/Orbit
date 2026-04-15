@@ -12,4 +12,4 @@ export * from "./api.service";
 export * from "./auth.service";
 export * from "./user.service";
 // Re-export types for convenience
-export type { ApiError, ApiResponse } from "@/types";
+export type { ApiError, ApiResponse } from "@santoori/core";

@@ -5,8 +5,7 @@
  */
 
 import { useCallback, useEffect, useState } from "react";
-
-import { AsyncState } from "@/types";
+import { AsyncState } from "@santoori/core";
 
 interface UseFetchOptions {
   immediate?: boolean;
